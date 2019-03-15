@@ -4,14 +4,16 @@ Parcial Ciberseguridad 2019-1
 
 Juan Esteban Monsalve Echeverry
 
-Vulnerabilidad 
+Vulnerabilidad
+--------------
 
 MS15-020: Una vulnerabilidad en Windows podría permitir la ejecución remota de código 
 
 Las vulnerabilidades podrían permitir la ejecución remota de código si un atacante correctamente convence a un usuario visita un sitio web especialmente diseñado, abra un archivo especialmente diseñado o abrir un archivo en un directorio de trabajo que contiene un archivo DLL especialmente diseñado. 
 Publicado: marzo 10, 2015
 
-Sistema Operativo 
+Sistema Operativo
+-----------------
 Windows XP, Windows 7 
 
 Software 
@@ -51,12 +53,14 @@ set lhost 10.191.5.5
 
 ----------------------------------------------------------------------------------------------------------
 Video Demo
+----------
 
 https://youtu.be/oq0XCedmUwI
 
 ----------------------------------------------------------------------------------------------------------
 
 Referencias
+-----------
 
 http://da1sy.cn/2018/05/MS15-020/
 https://github.com/rapid7/metasploit-framework/pull/4911
