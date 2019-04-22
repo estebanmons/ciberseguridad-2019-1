@@ -1,0 +1,26 @@
+1.   * Harden the system by installing at least one malware scanner, to perform periodic file system scans [HRDN-7230] 
+    - Solution : Install a tool like rkhunter, chkrootkit, OSSEC
+      https://cisofy.com/lynis/controls/HRDN-7230/
+
+2. * Install a file integrity tool to monitor changes to critical and sensitive files [FINT-4350] 
+      https://cisofy.com/lynis/controls/FINT-4350/
+
+3.   * Check output of aa-status [MACF-6208] 
+    - Details  : /sys/kernel/security/apparmor/profiles
+    - Solution : Run aa-status
+      https://cisofy.com/lynis/controls/MACF-6208/
+
+4 .   * Install a PAM module for password strength testing like pam_cracklib or pam_passwdqc [AUTH-9262] 
+      https://cisofy.com/lynis/controls/AUTH-9262/
+
+5.  * Install debsums utility for the verification of packages with known good database. [PKGS-7370] 
+      https://cisofy.com/lynis/controls/PKGS-7370/
+
+6.   * Install package apt-show-versions for patch management purposes [PKGS-7394] 
+      https://cisofy.com/lynis/controls/PKGS-7394/
+
+7. * Consider running ARP monitoring software (arpwatch,arpon) [NETW-3032] 
+      https://cisofy.com/lynis/controls/NETW-3032/
+
+8.  * Access to CUPS configuration could be more strict. [PRNT-2307] 
+      https://cisofy.com/lynis/controls/PRNT-2307/
